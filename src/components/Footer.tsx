@@ -1,10 +1,10 @@
 const links = [
   {
-    title: "SIMULASI SKOR PPDB SPMB KOTA YOGYAKARTA",
+    title: "SIMULASI SKOR SPMB KOTA YOGYAKARTA 2025",
     url: "https://simulasi-skor-ppdb-kota-yogyakarta.job.web.id/",
   },
   {
-    title: "SIMULASI SKOR PPDB SPMB SLEMAN",
+    title: "SIMULASI SKOR SPMB SLEMAN 2025",
     url: "https://simulasi-skor-ppdb-sleman.job.web.id/",
   },
   {
