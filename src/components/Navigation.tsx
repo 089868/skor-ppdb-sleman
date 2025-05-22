@@ -8,11 +8,11 @@ import {
 
 const links = [
   {
-    title: "SIMULASI SKOR PPDB SPMB KOTA YOGYAKARTA",
+    title: "SIMULASI SKOR SPMB 2025 KOTA YOGYAKARTA",
     url: "https://simulasi-skor-ppdb-kota-yogyakarta.job.web.id/",
   },
   {
-    title: "SIMULASI SKOR PPDB SPMB SLEMAN",
+    title: "SIMULASI SKOR SPMB 2025 SLEMAN",
     url: "https://simulasi-skor-ppdb-sleman.job.web.id/",
   },
   {
