@@ -120,7 +120,7 @@ const Index = () => {
     );
     const aspdSum = grades.reduce((acc, curr) => acc + curr.aspdScore, 0);
     
-    const total = (averageSum * 0.4) + (aspdSum * 0.6) + additionalScore;
+    const total = (averageSum * 0.3) + (aspdSum * 0.7) + additionalScore;
     setTotalScore(parseFloat(total.toFixed(2)));
   };
 
@@ -166,7 +166,7 @@ return (
     <div className="min-h-screen bg-gray-50 py-8 px-4 sm:px-6 lg:px-8">
       <div className="max-w-7xl mx-auto" ref={tableRef}>
         <h1 className="text-3xl font-bold text-gray-900 mb-4 text-center">
-          Kalkulator Simulasi Skor PPDB SMP Negeri Sleman
+          Kalkulator Simulasi Skor PSMB 2025 SMP Negeri Sleman
         </h1>
         
         <Instructions />
@@ -219,7 +219,7 @@ return (
 
             <div className="flex flex-col gap-4">
               <div className="flex items-center gap-4">
-                <span className="font-bold">SKOR TOTAL PPDB:</span>
+                <span className="font-bold">SKOR TOTAL PSMB:</span>
                 <span className="text-2xl font-bold text-blue-600">
                   {totalScore.toFixed(2)}
                 </span>
