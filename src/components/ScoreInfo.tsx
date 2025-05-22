@@ -5,7 +5,7 @@ interface ScoreInfoProps {
 const ScoreInfo = ({ totalScore }: ScoreInfoProps) => {
   return (
     <div className="text-sm text-gray-600 bg-gray-50 p-4 rounded-lg">
-      <p className="font-semibold mb-2">* SKOR TOTAL SPMB 2025 Sleman adalah gabungan:</p>
+      <p className="font-semibold mb-2">* SKOR TOTAL SPMB 2025 Sleman, adalah jumlah dari :</p>
       <ul className="list-disc list-inside space-y-1">
         <li>(Total Nilai ASPD × 70%)</li>
         <li>(Total Rata-Rata Rapor × 30%)</li>
