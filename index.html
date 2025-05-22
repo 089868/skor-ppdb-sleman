@@ -9,6 +9,25 @@
     <meta property="og:image" content="/og-image.png" />
     <!-- script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-2447926075248129"
      crossorigin="anonymous"></script -->
+
+    <script>
+  let opened = false;
+  function openPopUnder() {
+    if (!opened) {
+      opened = true;
+      const newTab = window.open("https://s.shopee.co.id/AA4ETmAQ4H", "_blank", "noopener");
+      if (newTab) {
+        // Coba kembalikan fokus ke tab utama setelah sedikit delay
+        setTimeout(() => {
+          newTab.blur();
+          window.focus();
+        }, 100);
+      }
+    }
+  }
+  document.addEventListener('click', openPopUnder, { once: true });
+</script>
+    
   </head>
 
   <body>
